@@ -1,0 +1,220 @@
+
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+body {
+    position: relative;
+    padding-bottom: 104px;
+    min-height: 100vh;
+}
+
+/******** Body-Div-Settings**********/
+body#home{
+    background-image: url('images/parrots.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+
+
+body#drinks{
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+
+body#main-course{
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+
+body#dessert{
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+/******** Order-Page********/
+body#order {
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+/******* Restaurant Name****/
+
+.store-name{
+    text-align: center;
+    padding:10px 0px 0px 0px;
+    font-size:60px;
+    font-family: Playball;
+    color: black;
+}
+
+
+.nav-left{
+    padding-left:15px;
+    font-size: 35px;
+    color: black;
+}
+
+#food-name  {
+    text-align: center;
+    font-size:25px;
+    color: black;
+    font-family:Libre;
+}
+
+/******************** Main Div ***********/
+main#foods {
+    background-image: url('images/textured-wall-large.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+main .food-menu {
+    width: 100%;
+    height: 400px;
+}
+
+main .food-menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.Serving {
+    color: black;
+    font-family:Libre;
+}
+.Serving p {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+
+
+
+.extras {
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+
+textarea {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+#comm-label {
+    padding-top: 5px;
+    font-size:25px;
+    color: black;
+    font-family:Libre;
+}
+button {
+    padding:7px;
+    font-family: Libre;
+    background-color: black;
+    margin-bottom: 25px;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+/******** Order-Page-Main *********/
+main#order-comm h1 {
+    text-align:center;
+    font-size:40px;
+    color: black;
+    font-family:Libre;
+}
+
+main#order-comm p {
+    padding-top: 30px;
+    text-align:center;
+    font-size:20px;
+    color: black;
+    font-family:Libre;
+}
+
+main#order-comm h2 {
+    text-align:center;
+    font-size:50px;
+    color: black;
+    font-family:Libre;
+    padding-top: 30px;
+}
+
+
+/******* Meal-Option-Btn*******/
+#Meal-option-btn{
+    position: absolute;
+    top:50%;
+    width:100%;
+    transform: translateY(-50%);
+}
+
+.menu-item {
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-right:25%;
+    margin-left:25%;
+    font-family: Libre;
+}
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+    body {
+        width: 80%;
+        margin: auto;
+    }
+    .social{
+        display:inline-block;
+        font-size:30px;
+        padding:40px 40px;
+    }
+    
+}
